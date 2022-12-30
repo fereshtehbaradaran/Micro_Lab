@@ -3,11 +3,11 @@
 
 **Breathing LED**
 
-
+A “breathing LED” is a situation where an LED’s brightness smoothly changes from dark to bright and back to dark.
 
 **RGB LED**
 
-
+In this expriment an RGB LED is controled by 3 potentiometer.
 
 **Guess the Number Game**
 
