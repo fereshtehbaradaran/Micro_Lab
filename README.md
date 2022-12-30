@@ -3,7 +3,7 @@
 
 **Breathing LED**
 
-A “breathing LED” is a situation where an LED’s brightness smoothly changes from dark to bright and back to dark.
+A “breathing LED” is a situation where an LED’s brightness smoothly changes from dark to bright and back to dark. It's implemented with help of arduino Uno.
 
 **RGB LED**
 
