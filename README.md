@@ -11,7 +11,7 @@ In this expriment an RGB LED is controled by 3 potentiometer.
 
 **Guess the Number Game**
 
-
+Two arduinos playing "guess the Number" and connected by UART protocol.
 
 **HW1**
 
