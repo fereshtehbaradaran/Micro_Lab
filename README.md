@@ -23,11 +23,12 @@ speed by setting a potentiometer to the desired value.
 
 **HW2**
 
+The experiment’s objective was to design a basic security system, further information is available on the documentation.
 
 
 
 **HW3**
 
-
-
+In this experiment we used TIMER1 to generate a PWM signal on pin 4. (This pins is not connected
+to any hardware PWM generation unit)
 
