@@ -1,15 +1,19 @@
 #include <Arduino.h>
 #include <Wire.h>
 
+
+// String message = "A Hard coded String"; 
+
 void setup(){
-    Wire.begin(8);
-    Wire.onRequest(requestEvent);
+  Wire.begin();
 }
+
 
 void loop(){
-    delay(500);
-}
 
-void requestEvent(){
-    Wire.write("hello ");
+  Wire.beginTransmission(6);
+  Wire.write("A Hard coded String");
+  Wire.endTransmission();
+
+  delay(5000);
 }
