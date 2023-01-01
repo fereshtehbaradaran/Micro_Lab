@@ -1,22 +1,27 @@
 #include <Arduino.h>
 #include <Wire.h>
 
-void setup() {
-  Wire.begin(6);                
-  Wire.onReceive(receiveEvent); 
-  Serial.begin(9600);           
-}
+void receiveEvent(int n) {
 
-void loop() {
-  delay(100);
-}
-
-
-void receiveEvent(int howMany) {
-
-  while(1 < Wire.available()) {
+  while(Wire.available() > 1) {
     char c = Wire.read();
     Serial.print(c); 
   }
 
+  int x = Wire.read();
+  Serial.println(x);
+}
+
+
+void setup() {
+
+  Wire.begin(6); 
+  Serial.begin(9600);                
+  Wire.onReceive(receiveEvent); 
+
+}
+
+
+void loop() {
+  delay(100);
 }
