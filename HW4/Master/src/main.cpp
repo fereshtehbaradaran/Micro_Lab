@@ -2,7 +2,7 @@
 #include <Wire.h>
 
 
-// String message = "A Hard coded String"; 
+const char *message = "A Hard coded String"; 
 
 void setup(){
   Wire.begin();
@@ -12,7 +12,7 @@ void setup(){
 void loop(){
 
   Wire.beginTransmission(6);
-  Wire.write("A Hard coded String");
+  Wire.write(message);
   Wire.endTransmission();
 
   delay(5000);
