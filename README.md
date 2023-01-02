@@ -21,6 +21,9 @@ This experiment contains a program and the appropriate circuit design that contr
 a brushed DC motor with the help of a MOSFET (IRFZ44N). And the user is able to change the motor’s
 speed by setting a potentiometer to the desired value.
 
+
+![Alt text](/HW1/Screenshot_20230102_115032.png)
+
 <br />
 
 **HW2** <br />
