@@ -43,5 +43,5 @@ to any hardware PWM generation unit)
 <br />
 
 **HW4** <br />
-In this experiment, a hypothetical communication system designed, which has only one slave right now. And a master just send that specific slave a 
+In this experiment, a communication system designed, which has only one slave right now. And a master just send that specific slave a 
 hardcoded string message every 5 seconds and the slave prints that message on the Serial interface.
